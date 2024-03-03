@@ -9,9 +9,6 @@ input.onButtonPressed(Button.A, function () {
     soundExpression.yawn.playUntilDone()
     basic.showIcon(IconNames.Asleep)
 })
-input.onSound(DetectedSound.Loud, function () {
-    music.play(music.builtinPlayableSoundEffect(soundExpression.sad), music.PlaybackMode.UntilDone)
-})
 input.onButtonPressed(Button.AB, function () {
     basic.showIcon(IconNames.Confused)
 })
